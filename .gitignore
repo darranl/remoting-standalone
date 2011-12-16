@@ -1,4 +1,8 @@
 bin
 .project
 .classpath
+.settings
+target
+client.truststore
+*.log
 
