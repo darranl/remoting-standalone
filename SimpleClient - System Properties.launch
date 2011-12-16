@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/remoting-standalone/src/main/java/com/darranl/as/remoting/client/SimpleClient.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.debug.ui.ATTR_CAPTURE_IN_FILE" value="${workspace_loc:/remoting-standalone}/client.log"/>
+<stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.maven.ide.eclipse.launchconfig.classpathProvider"/>
+<stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_01"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.darranl.as.remoting.client.SimpleClient"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="NONE"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="remoting-standalone"/>
+<stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.maven.ide.eclipse.launchconfig.sourcepathProvider"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Djava.util.logging.manager=org.jboss.logmanager.LogManager&#10;-Djavax.net.ssl.trustStore=/home/darranl/src/ide/eclipse/as7/remoting-standalone/client.truststore &#10;-Djavax.net.ssl.trustStorePassword=truststore_password&#10;-Djavax.net.ssl.keyStore=/home/darranl/src/ide/eclipse/as7/remoting-standalone/client.keystore &#10;-Djavax.net.ssl.keyStorePassword=keystore_password"/>
+</launchConfiguration>

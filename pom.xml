@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.darranl.as</groupId>
+	<artifactId>remoting-standalone</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>RemotingStandalone</name>
+	<description>A simple project to test the behaviour of Remoting in isolation.</description>
+	<dependencies>
+        <dependency>
+            <groupId>org.jboss.logmanager</groupId>
+            <artifactId>jboss-logmanager</artifactId>
+            <version>1.2.0.GA</version>
+        </dependency>
+		<dependency>
+			<groupId>org.jboss.remoting3</groupId>
+			<artifactId>jboss-remoting</artifactId>
+			<version>3.2.0.CR7-SNAPSHOT</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.jboss.sasl</groupId>
+			<artifactId>jboss-sasl</artifactId>
+			<version>1.0.0.Beta10-SNAPSHOT</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.jboss.xnio</groupId>
+			<artifactId>xnio-all</artifactId>
+			<version>3.0.0.CR6-SNAPSHOT</version>
+			<type>pom</type>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.jboss.xnio</groupId>
+			<artifactId>xnio-api</artifactId>
+			<version>3.0.0.CR6-SNAPSHOT</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.jboss.xnio</groupId>
+			<artifactId>xnio-nio</artifactId>
+			<version>3.0.0.CR6-SNAPSHOT</version>
+			<scope>compile</scope>
+		</dependency>
+	</dependencies>
+</project>
